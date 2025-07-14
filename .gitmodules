@@ -1,0 +1,3 @@
+[submodule "Wonder/vendor/spdlog"]
+	path = Wonder/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git
