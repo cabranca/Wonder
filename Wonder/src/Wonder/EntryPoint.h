@@ -5,7 +5,11 @@
 extern Wonder::Application* Wonder::CreateApplication();
 
 int main(int argc, char** argv) {
-	printf("Wonder Engine Starting...\n");
+	Wonder::Log::Init();
+	WD_CORE_WARN("Welcome to Wonder Engine!");
+	int a = 5;
+	WD_INFO("Hello! Var={0}", a);
+
 	auto app = Wonder::CreateApplication();
 	app->Run();
 	delete app;
