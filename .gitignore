@@ -12,8 +12,8 @@
 *.dbmdl
 
 # Compilación
-Debug/
-Release/
+Debug*/
+Release*/
 x64/
 x86/
 ARM/
