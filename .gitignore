@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+.vscode/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.cache
+*.dbmdl
+
+# Compilación
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.ipch
+*.tlog
+*.log
+*.pch
+*.exp
+*.lib
+*.exe
+*.dll
+*.out
+
+# CMake (si usás CMake)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Archivos intermedios o de respaldo
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+*.orig
+
+# Archivos del sistema
+Thumbs.db
+Desktop.ini
+
+# Ignore por convención
+.DS_Store
