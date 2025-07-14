@@ -2,8 +2,8 @@
 
 // For use by Wonder applications
 
-#include <stdio.h>
 #include "Wonder/Application.h"
+#include "Wonder/Log.h"
 
 // ---Entry Point-------------------
 #include "Wonder/EntryPoint.h"
